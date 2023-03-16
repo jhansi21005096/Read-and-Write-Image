@@ -93,7 +93,7 @@ cv2.waitKey(0)
 
 ### iv)Access rows and columns
 
-
+![output](https://github.com/jhansi21005096/Read-and-Write-Image/blob/main/output4.jpg)
 
 ### v)Cut and paste portion of image
 
