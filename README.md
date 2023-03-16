@@ -84,13 +84,12 @@ cv2.waitKey(0)
 ![output](https://github.com/jhansi21005096/Read-and-Write-Image/blob/main/output1.jpg)
 
 ### ii)Write the image
-
+![output](https://github.com/jhansi21005096/Read-and-Write-Image/blob/main/output2.jpg)
 
 
 ### iii)Shape of the Image
 
-<br>
-<br>
+
 
 ### iv)Access rows and columns
 <br>
