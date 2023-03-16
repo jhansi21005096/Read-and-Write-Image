@@ -19,34 +19,60 @@ Use imwrite(filename, image) to write the image.
 ### Step5:
 End the program and close the output image windows.
 ## Program:
-### Developed By:
-### Register Number: 
+### Developed By:K.Jhansi
+### Register Number: 212221230045
 i) #To Read,display the image
 ```
-  
+import cv2
+A=cv2.imread("scenary.jpg",1)
+tag=A[140:240,165:180]
+A[25:125,50:65]=tag
+cv2.imshow("color_image",A)
+cv2.waitKey(0)
+
 
 ```
 ii) #To write the image
 ```
-
+import cv2
+A=cv2.imread("scenary.jpg",1)
+tag=A[140:240,165:180]
+A[25:125,50:65]=tag
+cv2.imshow("color_image",A)
+cv2.waitKey(0)
 
 
 ```
 iii) #Find the shape of the Image
 ```python3
-
-
+import cv2
+imgg=cv2.imread('scenary.jpg',1)
+print(imgg.shape)
 
 ```
 iv) #To access rows and columns
 
 ```python3
-
+import random
+import cv2
+A=cv2.imread("scenary.jpg",1)
+for i in range(100):
+    for j in range(A.shape[1]):
+        A[i][j]=[random.randint(0,255),random.randint(0,255),random.randint(0,255)]
+cv2.imshow("color_image",A)
+cv2.waitKey(0)
 
 
 ```
 v) #To cut and paste portion of image
 ```python3
+
+import cv2
+A=cv2.imread("scenary.jpg",1)
+tag=A[140:240,165:180]
+A[25:125,50:65]=tag
+cv2.imshow("color_image",A)
+cv2.waitKey(0)
 
 
 
