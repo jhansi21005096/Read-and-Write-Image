@@ -24,12 +24,12 @@ End the program and close the output image windows.
 i) #To Read,display the image
 ```
 import cv2
-A=cv2.imread("scenary.jpg",1)
-tag=A[140:240,165:180]
-A[25:125,50:65]=tag
-cv2.imshow("color_image",A)
-cv2.waitKey(0)
-
+color_image=cv2. imread ('scenary. jpg', 1) 
+cv2. imshow 'color_image', color_image) 
+cv2.waitKey(0) 
+gray_image=cv2. imread('scenary.jpg',0) 
+cv2.imshow('gray_image', gray_image) 
+cv2.waitKey (0)
 
 ```
 ii) #To write the image
