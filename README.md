@@ -96,7 +96,7 @@ cv2.waitKey(0)
 ![output](https://github.com/jhansi21005096/Read-and-Write-Image/blob/main/output4.jpg)
 
 ### v)Cut and paste portion of image
-
+![output](https://github.com/jhansi21005096/Read-and-Write-Image/blob/main/output5.jpg)
 
 
 ## Result:
