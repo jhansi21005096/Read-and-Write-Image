@@ -81,14 +81,11 @@ cv2.waitKey(0)
 ## Output:
 
 ### i) Read and display the image
-
-<br>
-<br>
+![output](https://github.com/jhansi21005096/Read-and-Write-Image/blob/main/output1.jpg)
 
 ### ii)Write the image
 
-<br>
-<br>
+
 
 ### iii)Shape of the Image
 
